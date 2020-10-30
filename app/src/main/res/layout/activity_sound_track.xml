@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:scrollbarThumbHorizontal="@color/colorAccent"
+    tools:context=".SoundTrack">
+
+    <ImageButton
+        android:id="@+id/play2"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="playPause1"
+        android:src="@drawable/ic_stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navkar" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="68dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="playPause1"
+        android:src="@drawable/ic_pause"
+        app:layout_constraintEnd_toStartOf="@+id/play2"
+        app:layout_constraintStart_toEndOf="@+id/play1"
+        app:layout_constraintTop_toBottomOf="@+id/navkar" />
+
+    <TextView
+        android:id="@+id/navkar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:alpha="0.8"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:text="Shri Namokar Mantra Dhun"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ariOm" />
+
+    <ImageView
+        android:id="@+id/ariOm"
+        android:layout_width="269dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="32dp"
+        android:alpha="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ariom" />
+
+    <ImageButton
+        android:id="@+id/play1"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="playPause1"
+        android:src="@drawable/ic_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navkar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

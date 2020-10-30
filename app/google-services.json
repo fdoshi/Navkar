@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024400941463",
+    "firebase_url": "https://navkar-a13c5.firebaseio.com",
+    "project_id": "navkar-a13c5",
+    "storage_bucket": "navkar-a13c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024400941463:android:bca7c863ee37f45687a4d2",
+        "android_client_info": {
+          "package_name": "com.solutionplanets.navkar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024400941463-pvh8t41cogfalm3uptef336pteih71kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeuYQck73xzBNwv79FVmi4fN2KcFZDyYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024400941463-pvh8t41cogfalm3uptef336pteih71kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

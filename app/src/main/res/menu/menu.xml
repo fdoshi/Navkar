@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/audio"
+        android:icon="@drawable/ic_audio"
+        android:title="Namokar Dhun"
+        app:showAsAction="ifRoom|never" />
+    <item
+        android:id="@+id/summary"
+        android:icon="@drawable/ic_list"
+        android:title="Jaap Summary"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/support"
+        android:title="Support"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+</menu>
